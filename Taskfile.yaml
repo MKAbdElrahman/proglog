@@ -1,0 +1,4 @@
+version: 3
+
+tasks:
+  proto: protoc -I=./api/v1 --go_out=./api/v1  ./api/v1/*.proto
